@@ -22,6 +22,5 @@ async function fetchCountryData(country) {
 }
 
 function displayFlagFromData(data) {
-  console.log(data);
   flagImage.src = data.flag;
 }
